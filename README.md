@@ -4,6 +4,7 @@ Official code for:
 
 **Consistency-QSM: Few-Step Quantitative Susceptibility Mapping with a Physics-Guided Generative Prior**
 Junxin Fan, Anhong Jiang, Chenhuan Wu, Yu-Xuan Ren. *IEEE Transactions on Biomedical Engineering* (under review), 2026.
+Preprint: [Zenodo, doi:10.5281/zenodo.24549979](https://doi.org/10.5281/zenodo.24549979)
 
 Consistency-QSM distills the multi-step Diffusion-QSM generative prior into a few-step consistency student and applies physics-guided fine-tuning with data-consistency (DC) updates, reconstructing quantitative susceptibility maps in two network evaluations.
 
@@ -87,4 +88,19 @@ MIT (see `LICENSE`).
 
 ## Citation
 
-If you find this code useful, please cite the paper (citation details will be added upon publication).
+If you find this code useful, please cite the preprint:
+
+> J. Fan, A. Jiang, C. Wu, and Y.-X. Ren, "Consistency-QSM: Few-Step Quantitative Susceptibility Mapping with a Physics-Guided Generative Prior," Zenodo (preprint), 2026, doi:10.5281/zenodo.24549979. Under review at *IEEE Transactions on Biomedical Engineering*.
+
+```bibtex
+@misc{fan2026consistencyqsm,
+  author       = {Fan, Junxin and Jiang, Anhong and Wu, Chenhuan and Ren, Yu-Xuan},
+  title        = {Consistency-QSM: Few-Step Quantitative Susceptibility
+                  Mapping with a Physics-Guided Generative Prior},
+  year         = {2026},
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.24549979},
+  url          = {https://doi.org/10.5281/zenodo.24549979},
+  note         = {Preprint. Under review at IEEE Transactions on Biomedical Engineering}
+}
+```
